@@ -19,24 +19,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-bottom: 100px;
+        margin-bottom: 150px;
     }
-    footer{
-        display:flex;
-        flex-direction:column;
-        text-align: center; color: white;
-        background-color: $color;
-        margin-top: 10px;   
-        
-        .fa-instagram, .fa-twitter{
-            color: black;
-            margin-bottom: 20px;
-            font-size: x-large;
-           
-            
-        }
-        .fa-brands:hover{
-            color: white;
-        }
-    }
+    
 }
