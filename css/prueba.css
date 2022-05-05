@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap");
+header {
+  background-image: url(../assets/fondopantalla1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+  header .header-nav-logo {
+    inline-size: 2%;
+    margin: 10px;
+    margin-top: 15px;
+    padding-left: 10px; }
+  header .a-header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; }
+  header nav {
+    padding: 20px 0;
+    display: flex;
+    align-items: center; }
+    header nav a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-decoration: none;
+      padding: 3px;
+      margin: 3px; }
+      header nav a:hover {
+        color: wheat; }
+
+body .titulos-index {
+  text-align: center; }
+  body .titulos-index .h1-index {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    margin: 15px; }
+  body .titulos-index .h2-index {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkgray;
+    text-align: center;
+    margin-bottom: 5px;
+    padding-bottom: 30px; }
+
+body .img-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px; }
+
+body footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: white;
+  background-color: wheat;
+  margin-top: 10px; }
+  body footer .fa-instagram, body footer .fa-twitter {
+    color: black;
+    margin-bottom: 20px;
+    font-size: x-large; }
+  body footer .fa-brands:hover {
+    color: white; }

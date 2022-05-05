@@ -1,0 +1,35 @@
+$color: wheat;
+
+header{
+    background-image:url(../assets/fondopantalla1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .header-nav-logo{
+        inline-size: 2%;
+        margin: 10px;
+        margin-top: 15px;
+        padding-left: 10px;
+    }
+    .a-header{
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+    }
+    nav{
+        padding: 20px 0;
+        display: flex;
+        align-items: center;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-decoration: none;
+            padding: 3px;
+            margin: 3px;
+            &:hover{
+                color: $color;
+            }
+        }
+    }
+}

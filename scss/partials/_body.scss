@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Palette+Mosaic&display=swap');
+
+body{
+    .titulos-index{
+        text-align: center;
+        .h1-index{
+            font-family: 'Orbitron', sans-serif;
+            text-align: center;
+            margin: 15px;
+        }
+        .h2-index{
+            font-family: Verdana, Geneva, Tahoma, sans-serif; color: darkgray;
+            text-align: center;
+            margin-bottom: 5px;
+            padding-bottom: 30px;
+       }
+    }
+    .img-index{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    footer{
+        display:flex;
+        flex-direction:column;
+        text-align: center; color: white;
+        background-color: $color;
+        margin-top: 10px;   
+        
+        .fa-instagram, .fa-twitter{
+            color: black;
+            margin-bottom: 20px;
+            font-size: x-large;
+           
+            
+        }
+        .fa-brands:hover{
+            color: white;
+        }
+    }
+}
